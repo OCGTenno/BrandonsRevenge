@@ -11,6 +11,7 @@ public class FlickeringLights : MonoBehaviour
 
     void Start()
     {
+
         flickerLight = GetComponent<Light>(); //grabs the light
 
         StartCoroutine(Flashing()); //grabs the flashing function
@@ -20,8 +21,10 @@ public class FlickeringLights : MonoBehaviour
     {
         while(true)
         {
+            
             yield return new WaitForSeconds(Random.Range(minWaitTime, maxWaitTime)); //adds a random wait time between the min and max wait times
             flickerLight.enabled = !flickerLight.enabled;
+            
         }
     }
 
