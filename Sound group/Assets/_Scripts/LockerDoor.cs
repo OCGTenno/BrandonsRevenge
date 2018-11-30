@@ -21,6 +21,11 @@ public class LockerDoor : MonoBehaviour
             _animator.SetBool("Open", true);
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        _animator.SetBool("Open", false);
+    }
     // Update is called once per frame
     void Update ()
     {
