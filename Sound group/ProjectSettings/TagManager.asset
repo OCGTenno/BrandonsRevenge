@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - A Letter
+  - B Letter
+  - D Letter
+  - N Letter
+  - N2 Letter
+  - O Letter
+  - R Letter
   layers:
   - Default
   - TransparentFX
