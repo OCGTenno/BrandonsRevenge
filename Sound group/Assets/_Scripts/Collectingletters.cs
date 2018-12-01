@@ -5,7 +5,7 @@ using UnityEngine;
 public class Collectingletters : MonoBehaviour
 {
     public GameObject[]letters = new GameObject[7];
-    public int collectedLetters;
+    public static int collectedLetters;
     public GameObject Player;
     public AudioClip collectSound;
     
