@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23460731198124582}
   - component: {fileID: 95506836513719764}
   m_Layer: 0
-  m_Name: Printer (1)
+  m_Name: Big Printer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
