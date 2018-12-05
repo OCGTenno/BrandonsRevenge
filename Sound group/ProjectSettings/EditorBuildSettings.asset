@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MainMenu.unity
+    guid: d58e5d6be79016d459109548c0aa3b48
+  - enabled: 1
+    path: Assets/Scenes/Theater.unity
+    guid: 38ff3f7317eed364fb8c721a191664ac
+  - enabled: 1
+    path: Assets/Scenes/CliffBrandon Floor2.unity
+    guid: 744e351fa0c157d498e131f3d90b6fc2
+  - enabled: 1
+    path: Assets/Scenes/AlexShayne Floor1.unity
+    guid: 02f40161969265244ba91b23d060a117
   m_configObjects: {}
