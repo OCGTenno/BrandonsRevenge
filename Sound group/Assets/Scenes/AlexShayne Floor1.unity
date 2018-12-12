@@ -31399,6 +31399,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   efxSource: {fileID: 2119722136}
   musicSource: {fileID: 2119722136}
+  BrandonLines:
+  - {fileID: 8300000, guid: a2bb44e0c276fed47a9feefe1dae2029, type: 3}
+  - {fileID: 8300000, guid: 29f62038f3802574595c93a5b861a8a7, type: 3}
+  - {fileID: 8300000, guid: b63c7cb09e9195d46a824eebdb4a3c87, type: 3}
+  - {fileID: 8300000, guid: 198245f4733bf3e42b99df7399b475ff, type: 3}
+  - {fileID: 8300000, guid: 6da1feac2f1414341913ba32f3638ce7, type: 3}
+  - {fileID: 8300000, guid: 008042631a915e84fbe92366823ef6f9, type: 3}
+  - {fileID: 8300000, guid: 757961653d430de4aad46f6ce3b2e060, type: 3}
+  - {fileID: 8300000, guid: fc481d23e638f9949a26fb57c9505f5c, type: 3}
   lowPitchRange: 0.95
   highPitchRange: 1.05
 --- !u!1 &2120083494
