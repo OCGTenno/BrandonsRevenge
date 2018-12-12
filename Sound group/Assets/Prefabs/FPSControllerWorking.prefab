@@ -237,6 +237,7 @@ MonoBehaviour:
   - {fileID: 1594261115204396, guid: 326ef201008d3714bb21692aabc0a986, type: 2}
   - {fileID: 1800616793592432, guid: 29789ee05a3ea5a44882a1d358b14b63, type: 2}
   - {fileID: 1331831164165868, guid: dba3c46596cacee418cfaa2b18f1612d, type: 2}
+  collectedLetters: 0
   Player: {fileID: 1928138823316464}
   collectSound: {fileID: 8300000, guid: 6ac3879e58ef38b439b34574b669b689, type: 3}
 --- !u!114 &114575259298693916
@@ -254,7 +255,7 @@ MonoBehaviour:
   m_WalkSpeed: 5
   m_RunSpeed: 10
   m_RunstepLenghten: 0.7
-  m_JumpSpeed: 10
+  m_JumpSpeed: 0
   m_StickToGroundForce: 10
   m_GravityMultiplier: 2
   m_MouseLook:
@@ -362,8 +363,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
-  paperSound1: {fileID: 0}
-  paperSound2: {fileID: 0}
 --- !u!124 &124804007691719066
 Behaviour:
   m_ObjectHideFlags: 1
