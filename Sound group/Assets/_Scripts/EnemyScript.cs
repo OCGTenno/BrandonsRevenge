@@ -16,7 +16,7 @@ public class EnemyScript : MonoBehaviour {
     public float            speed;                  // Enemy Speed
     public GameObject       gameOverScreen;
     public AudioClip        scream;
-    
+    public GameObject       soundManager;
     
 
     // Private Stuff
@@ -30,7 +30,9 @@ public class EnemyScript : MonoBehaviour {
     private float           distPath;
     private AudioSource     audioSource;
     private bool            played;
-
+    private int             distanceSound;
+    private SoundManager    soundmanager;
+    
 
     void Awake ()
     {
@@ -42,7 +44,7 @@ public class EnemyScript : MonoBehaviour {
         gameOverScreen.SetActive(false);
         audioSource = GetComponent<AudioSource>();
         played = false;
-
+        soundmanager = GetComponent<SoundManager>();
     }
 	
 	// Update is called once per frame
@@ -53,6 +55,11 @@ public class EnemyScript : MonoBehaviour {
         dist = Vector3.Distance(player.GetComponent<Transform>().position, transform.position);
         distPath = Vector3.Distance(Path[nextPath].GetComponent<Transform>().position, transform.position);
         //Debug.Log("Wall infront of this object in Range" + Path);
+
+        if (dist <= 50f && distanceSound <= 0)
+        {
+            
+        }
 
         if (dist <= 10f)
         {
