@@ -21,7 +21,7 @@ public class EnemyScript : MonoBehaviour {
 
     // Private Stuff
 
-    public float           chaseTimer = 0.0f;      // Countdown Timer
+    public float            chaseTimer = 0.0f;      // Countdown Timer
     private int             nextPath;                
     private Transform       playerTransform;        
     private Transform       target;
@@ -29,7 +29,7 @@ public class EnemyScript : MonoBehaviour {
     private float           dist;
     private float           distPath;
     private AudioSource     audioSource;
-
+    private bool            played;
 
 
     void Awake ()
@@ -41,6 +41,7 @@ public class EnemyScript : MonoBehaviour {
         followTimeSec = followTimeSec * 60;
         gameOverScreen.SetActive(false);
         audioSource = GetComponent<AudioSource>();
+        played = false;
 
     }
 	
@@ -103,7 +104,12 @@ public class EnemyScript : MonoBehaviour {
         if (collision.transform.gameObject.name == player.transform.gameObject.name)
         {
             gameOverScreen.SetActive(true);
-            audioSource.PlayOneShot(scream, 0.7F);
+
+            if (played == false)
+            {
+                audioSource.PlayOneShot(scream, 0.7F);
+                played = true;
+            }
         }
     }
 

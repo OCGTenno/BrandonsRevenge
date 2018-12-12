@@ -8,6 +8,8 @@ public class SoundManager : MonoBehaviour {
     public AudioSource musicSource;
     public static SoundManager instance = null;
 
+    public AudioClip[] BrandonLines;
+
     public float lowPitchRange = 0.95f;
     public float highPitchRange = 1.05f;
 
