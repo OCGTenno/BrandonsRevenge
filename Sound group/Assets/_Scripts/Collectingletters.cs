@@ -31,7 +31,7 @@ public class Collectingletters : MonoBehaviour
             {
                 collectedLetters++;
                 collider.gameObject.SetActive(false);
-                AudioSource.PlayClipAtPoint(collectSound, transform.position); 
+              SoundManager.instance.PlaySingle(collectSound); 
 
             }
         }
