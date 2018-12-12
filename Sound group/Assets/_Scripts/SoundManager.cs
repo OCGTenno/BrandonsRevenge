@@ -15,7 +15,7 @@ public class SoundManager : MonoBehaviour {
     // Use this for initialization
     private void Awake()
     {
-        if (instance = null)
+        if (instance == null)
             instance = this;
         else if (instance != this)
             Destroy(gameObject);
@@ -25,7 +25,7 @@ public class SoundManager : MonoBehaviour {
 
 
 
-    public void PlaySingle(AudioClip clip)
+    public void PlaySingle (AudioClip clip)
     {
         efxSource.clip = clip;
         efxSource.Play();
@@ -42,8 +42,5 @@ public class SoundManager : MonoBehaviour {
         efxSource.Play();
     }
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
+   
 }
