@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114575259298693916}
   - component: {fileID: 82508945902678976}
   - component: {fileID: 136066286987135082}
-  - component: {fileID: 114050284531807590}
+  - component: {fileID: 114424215885335254}
   m_Layer: 0
   m_Name: FPSControllerWorking
   m_TagString: Untagged
@@ -56,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1928138823316464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.3, y: 8.12, z: 6.61}
+  m_LocalPosition: {x: -7.62, y: 9.247, z: -34.464}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4504692865069576}
@@ -218,7 +218,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114050284531807590
+--- !u!114 &114424215885335254
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,15 +230,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   letters:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1739297275771346, guid: c02b610f29670614fa9208a6e129d119, type: 2}
+  - {fileID: 1705229137526390, guid: 96eb0694c4f9c4c4d8edbbff1b646d7a, type: 2}
+  - {fileID: 1200436397218422, guid: a87ef07a2f2dc0b4398858143510cf5d, type: 2}
+  - {fileID: 1898690963595662, guid: 3bdca4a5f34676e4fb1a5fe7447d83c0, type: 2}
+  - {fileID: 1594261115204396, guid: 326ef201008d3714bb21692aabc0a986, type: 2}
+  - {fileID: 1800616793592432, guid: 29789ee05a3ea5a44882a1d358b14b63, type: 2}
+  - {fileID: 1331831164165868, guid: dba3c46596cacee418cfaa2b18f1612d, type: 2}
   Player: {fileID: 1928138823316464}
-  collectSound: {fileID: 8300000, guid: 5c2f5ca33485fbd42a9e7af0cf292651, type: 3}
+  collectSound: {fileID: 8300000, guid: 6ac3879e58ef38b439b34574b669b689, type: 3}
 --- !u!114 &114575259298693916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -362,6 +362,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  paperSound1: {fileID: 0}
+  paperSound2: {fileID: 0}
 --- !u!124 &124804007691719066
 Behaviour:
   m_ObjectHideFlags: 1
